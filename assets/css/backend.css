@@ -1,0 +1,12 @@
+.wc-action-button-tulostakirje_posti_toim:after {
+	content: 'O';
+    display: block;
+    height: 10px;  /*height of icon */
+    width: 10px;  /*width of icon */
+    position: absolute;
+      /*where to replace the icon */
+    top: 0px;
+    left: -10px;
+      /*background */
+    background: rgb(255, 255, 255);
+}

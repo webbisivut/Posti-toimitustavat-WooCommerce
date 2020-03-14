@@ -1,0 +1,85 @@
+/*
+ * WordPress Posti toimitustavat Module Main CSS File
+ */
+
+.smartpost-posti-wrap-sz,
+.smartpost-posti-wrap {
+	margin-bottom: 20px;
+	display: none;
+}
+
+.smartpost_posti_noutopiste-result-sz,
+.smartpost_posti_noutopiste-result {
+	padding: 10px;
+	max-width: 100%;
+}
+
+input.smartpost_noutopiste_posti-sz,
+input.smartpost_noutopiste_posti {
+	max-width: 350px;
+}
+
+.smartpost-posti-noutopiste-result-sz option,
+.smartpost-posti-noutopiste-result option {
+	overflow: hidden;
+	max-width: 700px;
+}
+
+.smartpost-posti-return-bad-input,
+.smartpost-posti-return-sz-bad-input {
+	color: #ff0000;
+}
+
+.loading-img-smartpost-posti {
+	width: 16px;
+	height: 16px;
+	display: inline-block;
+	margin-left: 5px;
+	background: url('../img/ajax-loader.gif');
+}
+
+.smartpost-posti-return-sz,
+.smartpost-posti-return {
+	margin: 10px 0;
+}
+
+.required-city-smartpost-sz,
+.required-city-smartpost {
+	display: block;
+}
+
+.required-smartpost-posti-pickup-point-sz,
+.required-smartpost-posti-pickup-point {
+	display: block;
+	margin: 20px 0 0 0;
+}
+
+input#smartpost_noutopiste_posti-sz::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #ff0000;
+}
+input#smartpost_noutopiste_posti-sz:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	color:    #ff0000;
+	opacity:  1;
+}
+input#smartpost_noutopiste_posti-sz::-moz-placeholder { /* Mozilla Firefox 19+ */
+	color:    #ff0000;
+	opacity:  1;
+}
+input#smartpost_noutopiste_posti-sz:-ms-input-placeholder { /* Internet Explorer 10+ */
+	color:   #ff0000;
+}
+
+input#smartpost_noutopiste_posti::-webkit-input-placeholder { /* WebKit browsers */
+    color:    #ff0000;
+}
+input#smartpost_noutopiste_posti:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+	color:    #ff0000;
+	opacity:  1;
+}
+input#smartpost_noutopiste_posti::-moz-placeholder { /* Mozilla Firefox 19+ */
+	color:    #ff0000;
+	opacity:  1;
+}
+input#smartpost_noutopiste_posti:-ms-input-placeholder { /* Internet Explorer 10+ */
+	color:   #ff0000;
+}

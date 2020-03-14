@@ -1,0 +1,2373 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Posti toimitustavat\n"
+"POT-Creation-Date: 2017-09-02 09:38+0300\n"
+"PO-Revision-Date: 2017-09-02 09:41+0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en_GB\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.2\n"
+"X-Poedit-Basepath: ..\n"
+"X-Poedit-WPHeader: wb-posti.php\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:3c,1,2;__ngettext_noop:1,2\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-SearchPathExcluded-0: *.js\n"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:94
+msgid "Posti EMS Ulkomaan toimitus (Posti Toimitustavat)"
+msgstr "Posti SmartPost shipping method (Posti Toimitustavat)"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:95
+#: includes/class-wb-ems-shipment-methods-sz.php:169
+msgid "Posti EMS Ulkomaan toimitus"
+msgstr "Posti SmartPost shipping method (Posti Toimitustavat)"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:165
+#: includes/class-wb-kirje-shipment-methods-sz.php:161
+#: includes/class-wb-kirje-shipment-methods.php:163
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:154
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:154
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:153
+#: includes/class-wb-posti-paketti-shipment-methods.php:153
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:152
+#: includes/class-wb-postiennakko-shipment-methods.php:154
+#: includes/class-wb-rahti-shipment-methods-sz.php:152
+#: includes/class-wb-smartpost-shipment-methods-sz.php:285
+#: includes/class-wb-smartpost-shipment-methods.php:286
+msgid "Toimitustavan nimi"
+msgstr "Shipping method name"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:168
+#: includes/class-wb-kirje-shipment-methods-sz.php:164
+#: includes/class-wb-kirje-shipment-methods.php:166
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:157
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:157
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:156
+#: includes/class-wb-posti-paketti-shipment-methods.php:156
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:155
+#: includes/class-wb-postiennakko-shipment-methods.php:157
+#: includes/class-wb-rahti-shipment-methods-sz.php:155
+#: includes/class-wb-smartpost-shipment-methods-sz.php:288
+#: includes/class-wb-smartpost-shipment-methods.php:289
+msgid "Anna toimitustavalle nimi jonka asiakas näkee kassalla."
+msgstr "Give shipping method a name that customer sees on the checkout page."
+
+#: includes/class-wb-ems-shipment-methods-sz.php:172
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:161
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:160
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:159
+#: includes/class-wb-rahti-shipment-methods-sz.php:159
+msgid "Hinnoitteluyksikkö"
+msgstr "Pricing unit"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:177
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:166
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:165
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:164
+#: includes/class-wb-rahti-shipment-methods-sz.php:164
+msgid "Paino"
+msgstr "Weight"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:178
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:167
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:166
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:165
+#: includes/class-wb-rahti-shipment-methods-sz.php:165
+msgid "Korkeus"
+msgstr "Height"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:182
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:171
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:170
+msgid "Paketti1 Paino / Korkeus"
+msgstr "Package1 Weight / Height"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:185
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:174
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:173
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:172
+#: includes/class-wb-rahti-shipment-methods-sz.php:172
+msgid ""
+"Ilmoita ensimmäisen paketin max-paino tai korkeus Esim. 2. Voit käyttää "
+"referenssinä: <a href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat."
+"html\" target=\"_blank\">Postin hinnastoa</a>. Huom!! Paino / korkeus tulee "
+"antaa samassa yksikössä kuin se on asetettu WooCommerceen!"
+msgstr ""
+"Please set the first package maximum weight, e.g. 2. You can use Posti "
+"catalog as a reference: http://www.posti.fi/private/pricesandinstructions/ "
+"Note !! The dimensions should be given in the same unit of measurement as it "
+"is set to WooCommerce! "
+
+#: includes/class-wb-ems-shipment-methods-sz.php:186
+#: includes/class-wb-kirje-shipment-methods-sz.php:242
+#: includes/class-wb-kirje-shipment-methods-sz.php:277
+#: includes/class-wb-kirje-shipment-methods.php:244
+#: includes/class-wb-kirje-shipment-methods.php:279
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:175
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:165
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:174
+#: includes/class-wb-posti-paketti-shipment-methods.php:164
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:173
+#: includes/class-wb-postiennakko-shipment-methods.php:165
+#: includes/class-wb-rahti-shipment-methods-sz.php:173
+msgid "2"
+msgstr " 2"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:189
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:178
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:168
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:177
+#: includes/class-wb-posti-paketti-shipment-methods.php:167
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:176
+#: includes/class-wb-postiennakko-shipment-methods.php:168
+#: includes/class-wb-rahti-shipment-methods-sz.php:176
+msgid "Paketti1 Hinta"
+msgstr "Package1 Price"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:192
+msgid ""
+"Ilmoita ensimmäisen paketin hinta Esim. 52 Voit käyttää referenssinä: <a "
+"href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target="
+"\"_blank\">Postin hinnastoa</a>"
+msgstr ""
+"Please set the first package price, e.g. 52. You can use Posti catalog as a "
+"reference: http://www.posti.fi/private/pricesandinstructions/ Note !! The "
+"dimensions should be given in the same unit of measurement as it is set to "
+"WooCommerce!"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:193
+msgid "52"
+msgstr " 52"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:196
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:185
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:184
+msgid "Paketti2 Paino / Korkeus"
+msgstr "Package2 Weight / Height"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:199
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:188
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:187
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:186
+#: includes/class-wb-rahti-shipment-methods-sz.php:186
+msgid ""
+"Ilmoita toisen paketin max-paino tai korkeus Esim. 5. Voit käyttää "
+"referenssinä: <a href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat."
+"html\" target=\"_blank\">Postin hinnastoa</a>. Huom!! Paino / korkeus tulee "
+"antaa samassa yksikössä kuin se on asetettu WooCommerceen!"
+msgstr ""
+"Please set the second package maximum weight, e.g. 5. You can use Posti "
+"catalog as a reference: http://www.posti.fi/private/pricesandinstructions/ "
+"Note !! The dimensions should be given in the same unit of measurement as it "
+"is set to WooCommerce!"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:200
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:189
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:179
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:188
+#: includes/class-wb-posti-paketti-shipment-methods.php:178
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:187
+#: includes/class-wb-postiennakko-shipment-methods.php:179
+#: includes/class-wb-rahti-shipment-methods-sz.php:187
+msgid "5"
+msgstr " 5"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:203
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:192
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:182
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:191
+#: includes/class-wb-posti-paketti-shipment-methods.php:181
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:190
+#: includes/class-wb-postiennakko-shipment-methods.php:182
+#: includes/class-wb-rahti-shipment-methods-sz.php:190
+msgid "Paketti2 Hinta"
+msgstr "Package2 Price"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:206
+msgid ""
+"Ilmoita toisen paketin hinta Esim. 65 Voit käyttää referenssinä: <a href="
+"\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target=\"_blank"
+"\">Postin hinnastoa</a>"
+msgstr ""
+"Please set the second package price, e.g. 65. You can use Posti catalog as a "
+"reference: http://www.posti.fi/private/pricesandinstructions/ Note !! The "
+"dimensions should be given in the same unit of measurement as it is set to "
+"WooCommerce!"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:207
+msgid "65"
+msgstr " 65"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:210
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:199
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:198
+msgid "Paketti3 Paino / Korkeus"
+msgstr "Package3 Weight / Height"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:213
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:202
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:201
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:200
+#: includes/class-wb-rahti-shipment-methods-sz.php:200
+msgid ""
+"Ilmoita kolmannen paketin max-paino tai korkeus Esim. 10. Voit käyttää "
+"referenssinä: <a href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat."
+"html\" target=\"_blank\">Postin hinnastoa</a>. Huom!! Paino / korkeus tulee "
+"antaa samassa yksikössä kuin se on asetettu WooCommerceen!"
+msgstr ""
+"Please set the third package maximum weight, e.g. 10. You can use Posti "
+"catalog as a reference: http://www.posti.fi/private/pricesandinstructions/ "
+"Note !! The dimensions should be given in the same unit of measurement as it "
+"is set to WooCommerce!"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:214
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:203
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:193
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:202
+#: includes/class-wb-posti-paketti-shipment-methods.php:192
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:201
+#: includes/class-wb-postiennakko-shipment-methods.php:193
+#: includes/class-wb-rahti-shipment-methods-sz.php:201
+msgid "10"
+msgstr " 10"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:217
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:206
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:196
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:205
+#: includes/class-wb-posti-paketti-shipment-methods.php:195
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:204
+#: includes/class-wb-postiennakko-shipment-methods.php:196
+#: includes/class-wb-rahti-shipment-methods-sz.php:204
+msgid "Paketti3 Hinta"
+msgstr "Package3 Price"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:220
+msgid ""
+"Ilmoita kolmannen paketin hinta Esim. 80 Voit käyttää referenssinä: <a href="
+"\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target=\"_blank"
+"\">Postin hinnastoa</a>"
+msgstr ""
+"Please set the third package price, e.g. 80. You can use Posti catalog as a "
+"reference: http://www.posti.fi/private/pricesandinstructions/"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:221
+msgid "80"
+msgstr " 80"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:224
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:213
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:212
+msgid "Paketti4 Paino / Korkeus"
+msgstr "Package4 Weight / Height"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:227
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:216
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:215
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:214
+#: includes/class-wb-rahti-shipment-methods-sz.php:214
+msgid ""
+"Ilmoita neljännen paketin max-paino tai korkeus Esim. 15. Voit käyttää "
+"referenssinä: <a href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat."
+"html\" target=\"_blank\">Postin hinnastoa</a>. Huom!! Paino / korkeus tulee "
+"antaa samassa yksikössä kuin se on asetettu WooCommerceen!"
+msgstr ""
+"Please set the fourth package maximum weight, e.g. 15. You can use Posti "
+"catalog as a reference: http://www.posti.fi/private/pricesandinstructions/ "
+"Note !! The dimensions should be given in the same unit of measurement as it "
+"is set to WooCommerce! "
+
+#: includes/class-wb-ems-shipment-methods-sz.php:228
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:217
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:207
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:216
+#: includes/class-wb-posti-paketti-shipment-methods.php:206
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:215
+#: includes/class-wb-postiennakko-shipment-methods.php:207
+#: includes/class-wb-rahti-shipment-methods-sz.php:215
+msgid "15"
+msgstr " 15"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:231
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:220
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:210
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:219
+#: includes/class-wb-posti-paketti-shipment-methods.php:209
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:218
+#: includes/class-wb-postiennakko-shipment-methods.php:210
+#: includes/class-wb-rahti-shipment-methods-sz.php:218
+msgid "Paketti4 Hinta"
+msgstr "Package4 Price"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:234
+msgid ""
+"Ilmoita neljännen paketin hinta Esim. 100 Voit käyttää referenssinä: <a href="
+"\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target=\"_blank"
+"\">Postin hinnastoa</a>"
+msgstr ""
+"Please set the fourth package price, e.g. 100. You can use Posti catalog as "
+"a reference: http://www.posti.fi/private/pricesandinstructions/ Note !! The "
+"dimensions should be given in the same unit of measurement as it is set to "
+"WooCommerce!"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:235
+#: includes/class-wb-ems-shipment-methods-sz.php:270
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:245
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:235
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:244
+#: includes/class-wb-posti-paketti-shipment-methods.php:234
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:250
+#: includes/class-wb-postiennakko-shipment-methods.php:242
+#: includes/class-wb-rahti-shipment-methods-sz.php:243
+#: includes/class-wb-rahti-shipment-methods-sz.php:250
+#: includes/class-wb-rahti-shipment-methods-sz.php:257
+msgid "100"
+msgstr " 100"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:238
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:227
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:226
+msgid "Paketti5 Paino / Korkeus"
+msgstr "Package5 Weight / Height"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:241
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:230
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:229
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:228
+#: includes/class-wb-rahti-shipment-methods-sz.php:228
+msgid ""
+"Ilmoita viidennen paketin max-paino tai korkeus Esim. 35. Voit käyttää "
+"referenssinä: <a href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat."
+"html\" target=\"_blank\">Postin hinnastoa</a>. Huom!! Paino / korkeus tulee "
+"antaa samassa yksikössä kuin se on asetettu WooCommerceen!"
+msgstr ""
+"Please set the fifth package maximum weight, e.g. 35. You can use Posti "
+"catalog as a reference: http://www.posti.fi/private/pricesandinstructions/ "
+"Note !! The dimensions should be given in the same unit of measurement as it "
+"is set to WooCommerce! "
+
+#: includes/class-wb-ems-shipment-methods-sz.php:242
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:231
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:221
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:230
+#: includes/class-wb-posti-paketti-shipment-methods.php:220
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:229
+#: includes/class-wb-postiennakko-shipment-methods.php:221
+#: includes/class-wb-rahti-shipment-methods-sz.php:229
+#: includes/class-wb-smartpost-shipment-methods-sz.php:401
+#: includes/class-wb-smartpost-shipment-methods.php:367
+msgid "35"
+msgstr " 35"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:245
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:234
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:224
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:233
+#: includes/class-wb-posti-paketti-shipment-methods.php:223
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:232
+#: includes/class-wb-postiennakko-shipment-methods.php:224
+#: includes/class-wb-rahti-shipment-methods-sz.php:232
+msgid "Paketti5 Hinta"
+msgstr "Package5 Price"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:248
+msgid ""
+"Ilmoita viidennen paketin hinta Esim. 160 Voit käyttää referenssinä: <a href="
+"\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target=\"_blank"
+"\">Postin hinnastoa</a>"
+msgstr ""
+"Please set the fifth package price, e.g. 160. You can use Posti catalog as a "
+"reference: http://www.posti.fi/private/pricesandinstructions/ Note !! The "
+"dimensions should be given in the same unit of measurement as it is set to "
+"WooCommerce!"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:249
+msgid "160"
+msgstr " 160"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:252
+msgid "EMS-Paketti ilmaisen toimituksen raja"
+msgstr "EMS package free deliver limit"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:255
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:272
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:262
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:271
+#: includes/class-wb-posti-paketti-shipment-methods.php:261
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:242
+#: includes/class-wb-postiennakko-shipment-methods.php:234
+#: includes/class-wb-rahti-shipment-methods-sz.php:270
+#: includes/class-wb-smartpost-shipment-methods-sz.php:351
+#: includes/class-wb-smartpost-shipment-methods.php:352
+msgid ""
+"Anna summa jonka jälkeen ei lisätä toimituskuluja. Jätä tyhjäksi jos et "
+"halua käyttää tätä toimintoa."
+msgstr ""
+"Enter the amount after which shipping costs wont be charged. Leave blank if "
+"you do not want to use this feature."
+
+#: includes/class-wb-ems-shipment-methods-sz.php:259
+#: includes/class-wb-kirje-shipment-methods-sz.php:280
+#: includes/class-wb-kirje-shipment-methods.php:282
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:276
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:266
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:275
+#: includes/class-wb-posti-paketti-shipment-methods.php:265
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:274
+#: includes/class-wb-postiennakko-shipment-methods.php:266
+#: includes/class-wb-rahti-shipment-methods-sz.php:274
+#: includes/class-wb-smartpost-shipment-methods-sz.php:355
+#: includes/class-wb-smartpost-shipment-methods.php:356
+msgid "Käsittelykulut"
+msgstr "Handling charges"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:262
+#: includes/class-wb-kirje-shipment-methods-sz.php:283
+#: includes/class-wb-kirje-shipment-methods.php:285
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:279
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:269
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:278
+#: includes/class-wb-posti-paketti-shipment-methods.php:268
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:277
+#: includes/class-wb-postiennakko-shipment-methods.php:269
+#: includes/class-wb-rahti-shipment-methods-sz.php:277
+#: includes/class-wb-smartpost-shipment-methods-sz.php:358
+#: includes/class-wb-smartpost-shipment-methods.php:359
+msgid "Lisää tähän mahdolliset käsittelykulut."
+msgstr "Add possible handling charges."
+
+#: includes/class-wb-ems-shipment-methods-sz.php:263
+#: includes/class-wb-ems-shipment-methods-sz.php:298
+#: includes/class-wb-ems-shipment-methods-sz.php:317
+#: includes/class-wb-ems-shipment-methods-sz.php:336
+#: includes/class-wb-ems-shipment-methods-sz.php:355
+#: includes/class-wb-kirje-shipment-methods-sz.php:284
+#: includes/class-wb-kirje-shipment-methods.php:286
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:280
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:270
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:279
+#: includes/class-wb-posti-paketti-shipment-methods.php:269
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:278
+#: includes/class-wb-postiennakko-shipment-methods.php:270
+#: includes/class-wb-rahti-shipment-methods-sz.php:278
+#: includes/class-wb-smartpost-shipment-methods-sz.php:359
+#: includes/class-wb-smartpost-shipment-methods.php:360
+msgid "0"
+msgstr " 0"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:266
+#: includes/class-wb-kirje-shipment-methods-sz.php:252
+#: includes/class-wb-kirje-shipment-methods.php:254
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:241
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:231
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:240
+#: includes/class-wb-posti-paketti-shipment-methods.php:230
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:246
+#: includes/class-wb-postiennakko-shipment-methods.php:238
+#: includes/class-wb-rahti-shipment-methods-sz.php:239
+#: includes/class-wb-smartpost-shipment-methods-sz.php:376
+#: includes/class-wb-smartpost-shipment-methods.php:377
+msgid "Maksimikorkeus"
+msgstr "Max height"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:269
+msgid ""
+"Tuotteen maksimikorkeus, jolloin tuotetta ei enää näytetä kassalla. Oletus "
+"100cm. Huom!! Mitat tulee antaa samassa mittayksikössä kuin ne on asetettu "
+"WooCommerceen!"
+msgstr ""
+"The maximum height of the product when the product will no longer be "
+"displayed in the checkout. The default 100 cm. Note !! The dimensions should "
+"be given in the same unit of measurement as it is set to WooCommerce!"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:273
+#: includes/class-wb-kirje-shipment-methods-sz.php:259
+#: includes/class-wb-kirje-shipment-methods.php:261
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:248
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:238
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:247
+#: includes/class-wb-posti-paketti-shipment-methods.php:237
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:253
+#: includes/class-wb-postiennakko-shipment-methods.php:245
+#: includes/class-wb-rahti-shipment-methods-sz.php:246
+#: includes/class-wb-smartpost-shipment-methods-sz.php:383
+#: includes/class-wb-smartpost-shipment-methods.php:384
+msgid "Maksimipituus"
+msgstr "Max Length"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:276
+msgid ""
+"Tuotteen maksipituus, jolloin tuotetta ei enää näytetä kassalla. Oletus "
+"200cm. Huom!! Mitat tulee antaa samassa mittayksikössä kuin ne on asetettu "
+"WooCommerceen!"
+msgstr ""
+"The maximum length of the product when the product is no longer displayed at "
+"the checkout. The default 25 cm. Note !! The dimensions should be given in "
+"the same unit of measurement as it is set to WooCommerce!"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:277
+#: includes/class-wb-ems-shipment-methods-sz.php:284
+msgid "200"
+msgstr " 200"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:280
+#: includes/class-wb-kirje-shipment-methods-sz.php:266
+#: includes/class-wb-kirje-shipment-methods.php:268
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:255
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:245
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:254
+#: includes/class-wb-posti-paketti-shipment-methods.php:244
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:260
+#: includes/class-wb-postiennakko-shipment-methods.php:252
+#: includes/class-wb-rahti-shipment-methods-sz.php:253
+#: includes/class-wb-smartpost-shipment-methods-sz.php:390
+#: includes/class-wb-smartpost-shipment-methods.php:391
+msgid "Maksimileveys"
+msgstr "Max Width"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:283
+msgid ""
+"Tuotteen maksileveys, jolloin tuotetta ei enää näytetä kassalla. Oletus "
+"200cm. Huom!! Mitat tulee antaa samassa mittayksikössä kuin ne on asetettu "
+"WooCommerceen!"
+msgstr ""
+"The maximum width of the product when the shipping method will no longer be "
+"displayed in the checkout. The default 60 cm. Note !! The dimensions should "
+"be given in the same unit of measurement as it is set to WooCommerce!"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:287
+msgid "EMS Paketti maksimi Paino / Korkeus"
+msgstr "The maximum weight / height of the EMS package"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:290
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:265
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:264
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:270
+#: includes/class-wb-rahti-shipment-methods-sz.php:263
+msgid ""
+"Anna maksimi paino, jonka jälkeen toimitustapaa ei näytetä enää kassalla. "
+"Huom!! Paino / korkeus tulee antaa samassa yksikössä kuin se on asetettu "
+"WooCommerceen!"
+msgstr ""
+"Set the maximum weight when the shipping method will no longer be displayed "
+"at the checkout. Default 2kg. Note !! The dimensions should be given in the "
+"same unit of measurement as it is set to WooCommerce!"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:291
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:266
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:256
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:265
+#: includes/class-wb-posti-paketti-shipment-methods.php:255
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:271
+#: includes/class-wb-postiennakko-shipment-methods.php:263
+#: includes/class-wb-rahti-shipment-methods-sz.php:264
+msgid "30"
+msgstr " 30"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:294
+msgid "Maksuvyöhyke 1 lisähinta"
+msgstr "Pay zone 1 extra cost"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:297
+#: includes/class-wb-ems-shipment-methods-sz.php:316
+#: includes/class-wb-ems-shipment-methods-sz.php:335
+#: includes/class-wb-ems-shipment-methods-sz.php:354
+msgid "Lisää tähän maksuvyöhykkeen lisähinta"
+msgstr "Extra cost for pay zone"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:301
+msgid "Maksuvyöhyke 1 maat"
+msgstr "Pay zone 1 countries"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:302
+#: includes/class-wb-ems-shipment-methods-sz.php:321
+#: includes/class-wb-ems-shipment-methods-sz.php:340
+#: includes/class-wb-ems-shipment-methods-sz.php:359
+msgid "Lisää tähän maksuvyöhykkeen maat"
+msgstr "Add pay zone countries"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:309
+#: includes/class-wb-ems-shipment-methods-sz.php:328
+#: includes/class-wb-ems-shipment-methods-sz.php:347
+#: includes/class-wb-ems-shipment-methods-sz.php:366
+#: includes/class-wb-ems-shipment-methods-sz.php:389
+#: includes/class-wb-kirje-shipment-methods-sz.php:306
+#: includes/class-wb-kirje-shipment-methods.php:308
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:302
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:292
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:301
+#: includes/class-wb-posti-paketti-shipment-methods.php:291
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:300
+#: includes/class-wb-postiennakko-shipment-methods.php:301
+#: includes/class-wb-rahti-shipment-methods-sz.php:300
+#: includes/class-wb-smartpost-shipment-methods-sz.php:423
+#: includes/class-wb-smartpost-shipment-methods.php:417
+msgid "Valitse maat"
+msgstr "Select the countries"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:313
+msgid "Maksuvyöhyke 2 lisähinta"
+msgstr "Pay zone 2 extra cost"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:320
+msgid "Maksuvyöhyke 2 maat"
+msgstr "Pay zone 2 countries"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:332
+msgid "Maksuvyöhyke 3 lisähinta"
+msgstr "Pay zone 3 extra cost"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:339
+msgid "Maksuvyöhyke 3 maat"
+msgstr "Pay zone 3 countries"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:351
+msgid "Maksuvyöhyke 4 lisähinta"
+msgstr "Pay zone 4 extra cost"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:358
+msgid "Maksuvyöhyke 4 maat"
+msgstr "Pay zone 4 countries"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:370
+#: includes/class-wb-kirje-shipment-methods-sz.php:287
+#: includes/class-wb-kirje-shipment-methods.php:289
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:283
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:273
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:282
+#: includes/class-wb-posti-paketti-shipment-methods.php:272
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:281
+#: includes/class-wb-postiennakko-shipment-methods.php:282
+#: includes/class-wb-rahti-shipment-methods-sz.php:281
+#: includes/class-wb-smartpost-shipment-methods-sz.php:404
+#: includes/class-wb-smartpost-shipment-methods.php:398
+msgid "Saatavuus"
+msgstr "Availability"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:376
+#: includes/class-wb-kirje-shipment-methods-sz.php:293
+#: includes/class-wb-kirje-shipment-methods.php:295
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:289
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:279
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:288
+#: includes/class-wb-posti-paketti-shipment-methods.php:278
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:287
+#: includes/class-wb-postiennakko-shipment-methods.php:288
+#: includes/class-wb-rahti-shipment-methods-sz.php:287
+#: includes/class-wb-smartpost-shipment-methods-sz.php:410
+#: includes/class-wb-smartpost-shipment-methods.php:404
+msgid "Toimitetaan valittuihin maihin"
+msgstr "Delivered to the selected countries"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:377
+#: includes/class-wb-kirje-shipment-methods-sz.php:294
+#: includes/class-wb-kirje-shipment-methods.php:296
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:290
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:280
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:289
+#: includes/class-wb-posti-paketti-shipment-methods.php:279
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:288
+#: includes/class-wb-postiennakko-shipment-methods.php:289
+#: includes/class-wb-rahti-shipment-methods-sz.php:288
+#: includes/class-wb-smartpost-shipment-methods-sz.php:411
+#: includes/class-wb-smartpost-shipment-methods.php:405
+msgid "Ei toimiteta valittuihin maihin"
+msgstr "Not delivered to the selected countries"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:378
+msgid "Toimitetaan kaikkiin maihin"
+msgstr "Delivered to all countries"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:382
+#: includes/class-wb-kirje-shipment-methods-sz.php:299
+#: includes/class-wb-kirje-shipment-methods.php:301
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:295
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:285
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:294
+#: includes/class-wb-posti-paketti-shipment-methods.php:284
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:293
+#: includes/class-wb-postiennakko-shipment-methods.php:294
+#: includes/class-wb-rahti-shipment-methods-sz.php:293
+#: includes/class-wb-smartpost-shipment-methods-sz.php:416
+#: includes/class-wb-smartpost-shipment-methods.php:410
+msgid "Valitut maat"
+msgstr "Selected countries"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:393
+#: includes/class-wb-ems-shipment-methods-sz.php:398
+#: includes/class-wb-kirje-shipment-methods-sz.php:310
+#: includes/class-wb-kirje-shipment-methods-sz.php:315
+#: includes/class-wb-kirje-shipment-methods.php:312
+#: includes/class-wb-kirje-shipment-methods.php:317
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:306
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:311
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:296
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:301
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:305
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:310
+#: includes/class-wb-posti-paketti-shipment-methods.php:295
+#: includes/class-wb-posti-paketti-shipment-methods.php:300
+#: includes/class-wb-postiennakko-maksu.php:116
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:304
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:309
+#: includes/class-wb-postiennakko-shipment-methods.php:278
+#: includes/class-wb-postiennakko-shipment-methods.php:305
+#: includes/class-wb-postiennakko-shipment-methods.php:310
+#: includes/class-wb-rahti-shipment-methods-sz.php:304
+#: includes/class-wb-rahti-shipment-methods-sz.php:309
+#: includes/class-wb-smartpost-shipment-methods-sz.php:427
+#: includes/class-wb-smartpost-shipment-methods-sz.php:432
+#: includes/class-wb-smartpost-shipment-methods.php:421
+#: includes/class-wb-smartpost-shipment-methods.php:426
+msgid "Verotettava"
+msgstr "Taxable"
+
+#: includes/class-wb-ems-shipment-methods-sz.php:399
+#: includes/class-wb-kirje-shipment-methods-sz.php:316
+#: includes/class-wb-kirje-shipment-methods.php:318
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:312
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:302
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:311
+#: includes/class-wb-posti-paketti-shipment-methods.php:301
+#: includes/class-wb-postiennakko-maksu.php:117
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:310
+#: includes/class-wb-postiennakko-shipment-methods.php:279
+#: includes/class-wb-postiennakko-shipment-methods.php:311
+#: includes/class-wb-rahti-shipment-methods-sz.php:310
+#: includes/class-wb-smartpost-shipment-methods-sz.php:433
+#: includes/class-wb-smartpost-shipment-methods.php:427
+msgid "Ei verotettava"
+msgstr "Non taxable"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:97
+msgid "Posti Kirje (Posti Toimitustavat)"
+msgstr "Posti Letter shipping method (Posti Toimitustavat)"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:98
+#: includes/class-wb-kirje-shipment-methods.php:97
+msgid "Posti Kirje toimitustapa."
+msgstr "Posti Letter shipping method."
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:165
+#: includes/class-wb-kirje-shipment-methods.php:167
+msgid "Posti Kirje"
+msgstr "Posti Letter"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:168
+#: includes/class-wb-kirje-shipment-methods.php:170
+msgid "Kirje1 Paino"
+msgstr "Letter1 Weight"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:171
+msgid ""
+"Ilmoita ensimmäisen kirjeen max-paino Esim. 0.050. Voit käyttää "
+"referenssinä: <a href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat."
+"html\" target=\"_blank\">Postin hinnastoa</a>. Huom!! Paino tulee antaa "
+"samassa painoyksikössä kuin se on asetettu WooCommerceen!"
+msgstr ""
+"Please set the first letter maximum weight, e.g. 0.050. You can use Posti "
+"catalog as a reference: http://www.posti.fi/private/pricesandinstructions/ "
+"Note !! The dimensions should be given in the same unit of measurement as it "
+"is set to WooCommerce!"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:172
+#: includes/class-wb-kirje-shipment-methods.php:174
+msgid "0.050"
+msgstr " 0.050"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:175
+#: includes/class-wb-kirje-shipment-methods.php:177
+msgid "Kirje1 Hinta"
+msgstr "Letter1 Price"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:178
+#: includes/class-wb-kirje-shipment-methods.php:180
+msgid ""
+"Ilmoita ensimmäisen kirjeen hinta Esim. 1.10 Voit käyttää referenssinä: <a "
+"href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target="
+"\"_blank\">Postin hinnastoa</a>"
+msgstr ""
+"Please set the first letter price, e.g. 1.10. You can use Posti catalog as a "
+"reference: http://www.posti.fi/private/pricesandinstructions/"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:179
+#: includes/class-wb-kirje-shipment-methods.php:181
+msgid "1.10"
+msgstr " 1.10"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:182
+#: includes/class-wb-kirje-shipment-methods.php:184
+msgid "Kirje2 Paino"
+msgstr "Letter2 Weight"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:185
+msgid ""
+"Ilmoita toisen kirjeen max-paino Esim. 0.100. Voit käyttää referenssinä: <a "
+"href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target="
+"\"_blank\">Postin hinnastoa</a>. Huom!! Paino tulee antaa samassa "
+"painoyksikössä kuin se on asetettu WooCommerceen!"
+msgstr ""
+"Please set the second letter maximum weight, e.g. 0.100. You can use Posti "
+"catalog as a reference: http://www.posti.fi/private/pricesandinstructions/ "
+"Note !! The dimensions should be given in the same unit of measurement as it "
+"is set to WooCommerce!"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:186
+#: includes/class-wb-kirje-shipment-methods.php:188
+msgid "0.100"
+msgstr " 0.100"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:189
+#: includes/class-wb-kirje-shipment-methods.php:191
+msgid "Kirje2 Hinta"
+msgstr "Letter2 Price"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:192
+#: includes/class-wb-kirje-shipment-methods.php:194
+msgid ""
+"Ilmoita toisen kirjeen hinta Esim. 1.60 Voit käyttää referenssinä: <a href="
+"\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target=\"_blank"
+"\">Postin hinnastoa</a>"
+msgstr ""
+"Please set the second letter price, e.g. 1.60. You can use Posti catalog as "
+"a reference: http://www.posti.fi/private/pricesandinstructions/"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:193
+#: includes/class-wb-kirje-shipment-methods.php:195
+msgid "1.60"
+msgstr "1.60"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:196
+#: includes/class-wb-kirje-shipment-methods.php:198
+msgid "Kirje3 Paino"
+msgstr "Letter3 Weight"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:199
+msgid ""
+"Ilmoita kolmannen kirjeen max-paino Esim. 0.250. Voit käyttää referenssinä: "
+"<a href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target="
+"\"_blank\">Postin hinnastoa</a>. Huom!! Paino tulee antaa samassa "
+"painoyksikössä kuin se on asetettu WooCommerceen!"
+msgstr ""
+"Please set the third letter maximum weight, e.g. 0.250. You can use Posti "
+"catalog as a reference: http://www.posti.fi/private/pricesandinstructions/ "
+"Note !! The dimensions should be given in the same unit of measurement as it "
+"is set to WooCommerce!"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:200
+#: includes/class-wb-kirje-shipment-methods.php:202
+msgid "0.250"
+msgstr "0.250"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:203
+#: includes/class-wb-kirje-shipment-methods.php:205
+msgid "Kirje3 Hinta"
+msgstr "Letter3 Price"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:206
+#: includes/class-wb-kirje-shipment-methods.php:208
+msgid ""
+"Ilmoita kolmannen kirjeen hinta Esim. 2.20 Voit käyttää referenssinä: <a "
+"href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target="
+"\"_blank\">Postin hinnastoa</a>"
+msgstr ""
+"Please set the third letter price, e.g. 2.20. You can use Posti catalog as a "
+"reference: http://www.posti.fi/private/pricesandinstructions/"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:207
+#: includes/class-wb-kirje-shipment-methods.php:209
+msgid "2.20"
+msgstr "2.20"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:210
+#: includes/class-wb-kirje-shipment-methods.php:212
+msgid "Kirje4 Paino"
+msgstr "Letter4 Weight"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:213
+msgid ""
+"Ilmoita neljännen kirjeen max-paino Esim. 0.500. Voit käyttää referenssinä: "
+"<a href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target="
+"\"_blank\">Postin hinnastoa</a>. Huom!! Paino tulee antaa samassa "
+"painoyksikössä kuin se on asetettu WooCommerceen!"
+msgstr ""
+"Please set the fourth letter maximum weight, e.g. 0.500. You can use Posti "
+"catalog as a reference: http://www.posti.fi/private/pricesandinstructions/ "
+"Note !! The dimensions should be given in the same unit of measurement as it "
+"is set to WooCommerce!"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:214
+#: includes/class-wb-kirje-shipment-methods.php:216
+msgid "0.500"
+msgstr "0.500"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:217
+#: includes/class-wb-kirje-shipment-methods.php:219
+msgid "Kirje4 Hinta"
+msgstr "Letter4 Price"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:220
+#: includes/class-wb-kirje-shipment-methods.php:222
+msgid ""
+"Ilmoita neljännen kirjeen hinta Esim. 4.40 Voit käyttää referenssinä: <a "
+"href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target="
+"\"_blank\">Postin hinnastoa</a>"
+msgstr ""
+"Please set the fourth letter price, e.g. 4.40. You can use Posti catalog as "
+"a reference: http://www.posti.fi/private/pricesandinstructions/"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:221
+#: includes/class-wb-kirje-shipment-methods.php:223
+msgid "4.40"
+msgstr "4.40"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:224
+#: includes/class-wb-kirje-shipment-methods.php:226
+msgid "Kirje5 Paino"
+msgstr "Letter5 Weight"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:227
+msgid ""
+"Ilmoita viidennen kirjeen max-paino Esim. 1. Voit käyttää referenssinä: <a "
+"href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target="
+"\"_blank\">Postin hinnastoa</a>. Huom!! Paino tulee antaa samassa "
+"painoyksikössä kuin se on asetettu WooCommerceen!"
+msgstr ""
+"Please set the fifth letter maximum weight, e.g. 1. You can use Posti "
+"catalog as a reference: http://www.posti.fi/private/pricesandinstructions/ "
+"Note !! The dimensions should be given in the same unit of measurement as it "
+"is set to WooCommerce!"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:228
+#: includes/class-wb-kirje-shipment-methods.php:230
+msgid "1"
+msgstr "1"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:231
+#: includes/class-wb-kirje-shipment-methods.php:233
+msgid "Kirje5 Hinta"
+msgstr "Letter5 Price"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:234
+#: includes/class-wb-kirje-shipment-methods.php:236
+msgid ""
+"Ilmoita viidennen kirjeen hinta Esim. 6.60 Voit käyttää referenssinä: <a "
+"href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target="
+"\"_blank\">Postin hinnastoa</a>"
+msgstr ""
+"Please set the fifth letter price, e.g. 6.60. You can use Posti catalog as a "
+"reference: http://www.posti.fi/private/pricesandinstructions/"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:235
+#: includes/class-wb-kirje-shipment-methods.php:237
+msgid "6.60"
+msgstr " "
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:238
+#: includes/class-wb-kirje-shipment-methods.php:240
+msgid "Kirje6 Paino"
+msgstr "Letter6 Weight"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:241
+msgid ""
+"Ilmoita kuudennen kirjeen max-paino Esim. 2. Voit käyttää referenssinä: <a "
+"href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target="
+"\"_blank\">Postin hinnastoa</a>. Huom!! Paino tulee antaa samassa "
+"painoyksikössä kuin se on asetettu WooCommerceen!"
+msgstr ""
+"Please set the sixth letter maximum weight, e.g. 2. You can use Posti "
+"catalog as a reference: http://www.posti.fi/private/pricesandinstructions/ "
+"Note !! The dimensions should be given in the same unit of measurement as it "
+"is set to WooCommerce!"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:245
+#: includes/class-wb-kirje-shipment-methods.php:247
+msgid "Kirje6 Hinta"
+msgstr "Letter6 Price"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:248
+#: includes/class-wb-kirje-shipment-methods.php:250
+msgid ""
+"Ilmoita kuudennen kirjeen hinta Esim. 11.00 Voit käyttää referenssinä: <a "
+"href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target="
+"\"_blank\">Postin hinnastoa</a>"
+msgstr ""
+"Please set the sixth letter price, e.g. 11.00. You can use Posti catalog as "
+"a reference: http://www.posti.fi/private/pricesandinstructions/"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:249
+#: includes/class-wb-kirje-shipment-methods.php:251
+msgid "11.00"
+msgstr " "
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:255
+msgid ""
+"Tuotteen maksimikorkeus, jolloin toimitustapaa ei enää näytetä kassalla. "
+"Oletus 3cm. Huom!! Mitat tulee antaa samassa mittayksikössä kuin se on "
+"asetettu WooCommerceen!"
+msgstr ""
+"The maximum height of the product when the shipping method will no longer be "
+"displayed in the checkout. The default 3 cm. Note !! The dimensions should "
+"be given in the same unit of measurement as it is set to WooCommerce!"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:256
+#: includes/class-wb-kirje-shipment-methods.php:258
+msgid "3"
+msgstr " "
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:262
+msgid ""
+"Tuotteen maksimipituus, jolloin toimitustapaa ei enää näytetä kassalla. "
+"Oletus 25cm. Huom!! Mitat tulee antaa samassa mittayksikössä kuin se on "
+"asetettu WooCommerceen!"
+msgstr ""
+"The maximum length of the product when the shipping method will no longer be "
+"displayed in the checkout. The default 25 cm. Note !! The dimensions should "
+"be given in the same unit of measurement as it is set to WooCommerce!"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:263
+#: includes/class-wb-kirje-shipment-methods.php:265
+msgid "25"
+msgstr " "
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:269
+msgid ""
+"Tuotteen maksimileveys, jolloin toimitustapaa ei enää näytetä kassalla. "
+"Oletus 35.3cm. Huom!! Mitat tulee antaa samassa mittayksikössä kuin se on "
+"asetettu WooCommerceen!"
+msgstr ""
+"The maximum width of the product when the product will no longer be "
+"displayed in the checkout. The default 35.3 cm. Note !! The dimensions "
+"should be given in the same unit of measurement as it is set to WooCommerce!"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:270
+#: includes/class-wb-kirje-shipment-methods.php:272
+msgid "35.3"
+msgstr " "
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:273
+#: includes/class-wb-kirje-shipment-methods.php:275
+msgid "Kirje maksimi paino"
+msgstr "Letter Max Weight"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:276
+msgid ""
+"Anna maksimi paino, jonka jälkeen toimitustapaa ei näytetä enää kassalla. "
+"Oletus 2kg. Huom!! Paino tulee antaa samassa painoyksikössä kuin se on "
+"asetettu WooCommerceen!"
+msgstr ""
+"Set the maximum weight when the shipping method will no longer be displayed "
+"at the checkout. Default 2kg. Note !! The dimensions should be given in the "
+"same unit of measurement as it is set to WooCommerce!"
+
+#: includes/class-wb-kirje-shipment-methods-sz.php:295
+#: includes/class-wb-kirje-shipment-methods.php:297
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:291
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:281
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:290
+#: includes/class-wb-posti-paketti-shipment-methods.php:280
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:289
+#: includes/class-wb-postiennakko-shipment-methods.php:290
+#: includes/class-wb-rahti-shipment-methods-sz.php:289
+#: includes/class-wb-smartpost-shipment-methods-sz.php:412
+#: includes/class-wb-smartpost-shipment-methods.php:406
+msgid "Toimitetaan kaikkiin maihin joihin myydään"
+msgstr "Will be delivered to all countries which are available for selling"
+
+#: includes/class-wb-kirje-shipment-methods.php:96
+msgid "Posti Kirje (Poistuu käytöstä)"
+msgstr "Posti Letter (Deprecated)"
+
+#: includes/class-wb-kirje-shipment-methods.php:157
+msgid "Kirje"
+msgstr "Letter"
+
+#: includes/class-wb-kirje-shipment-methods.php:159
+msgid "Ota käyttöön Kirje toimitustapa"
+msgstr "Enable Posti letter shipping method"
+
+#: includes/class-wb-kirje-shipment-methods.php:173
+msgid ""
+"Ilmoita ensimmäisen kirjeen max-paino Esim. 0.050. Voit käyttää "
+"referenssinä: <a href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat."
+"html\" target=\"_blank\">Postin hinnastoa</a>"
+msgstr ""
+"Please set the first letter maximum weight, e.g. 0.050. You can use Posti "
+"catalog as a reference: http://www.posti.fi/private/pricesandinstructions/"
+
+#: includes/class-wb-kirje-shipment-methods.php:187
+msgid ""
+"Ilmoita toisen kirjeen max-paino Esim. 0.100. Voit käyttää referenssinä: <a "
+"href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target="
+"\"_blank\">Postin hinnastoa</a>"
+msgstr ""
+"Please set the second letter maximum weight, e.g. 0.100. You can use Posti "
+"catalog as a reference: http://www.posti.fi/private/pricesandinstructions/"
+
+#: includes/class-wb-kirje-shipment-methods.php:201
+msgid ""
+"Ilmoita kolmannen kirjeen max-paino Esim. 0.250. Voit käyttää referenssinä: "
+"<a href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target="
+"\"_blank\">Postin hinnastoa</a>"
+msgstr ""
+"Please set the third letter maximum weight, e.g. 0.250. You can use Posti "
+"catalog as a reference: http://www.posti.fi/private/pricesandinstructions/"
+
+#: includes/class-wb-kirje-shipment-methods.php:215
+msgid ""
+"Ilmoita neljännen kirjeen max-paino Esim. 0.500. Voit käyttää referenssinä: "
+"<a href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target="
+"\"_blank\">Postin hinnastoa</a>"
+msgstr ""
+"Please set the fourth letter maximum weight, e.g. 0.500. You can use Posti "
+"catalog as a reference: http://www.posti.fi/private/pricesandinstructions/"
+
+#: includes/class-wb-kirje-shipment-methods.php:229
+msgid ""
+"Ilmoita viidennen kirjeen max-paino Esim. 1. Voit käyttää referenssinä: <a "
+"href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target="
+"\"_blank\">Postin hinnastoa</a>"
+msgstr ""
+"Please set the fifth letter maximum weight, e.g. 1. You can use Posti "
+"catalog as a reference: http://www.posti.fi/private/pricesandinstructions/"
+
+#: includes/class-wb-kirje-shipment-methods.php:243
+msgid ""
+"Ilmoita kuudennen kirjeen max-paino Esim. 2. Voit käyttää referenssinä: <a "
+"href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target="
+"\"_blank\">Postin hinnastoa</a>"
+msgstr ""
+"Please set the sixth letter maximum weight, e.g. 2. You can use Posti "
+"catalog as a reference: http://www.posti.fi/private/pricesandinstructions/"
+
+#: includes/class-wb-kirje-shipment-methods.php:257
+msgid ""
+"Tuotteen maksimikorkeus, jolloin toimitustapaa ei enää näytetä kassalla. "
+"Oletus 3cm."
+msgstr ""
+"The maximum height of the product when the shipping method will no longer be "
+"displayed in the checkout. The default 3 cm."
+
+#: includes/class-wb-kirje-shipment-methods.php:264
+msgid ""
+"Tuotteen maksimipituus, jolloin toimitustapaa ei enää näytetä kassalla. "
+"Oletus 25cm."
+msgstr ""
+"The maximum length of the product when the shipping method will no longer be "
+"displayed in the checkout. The default 25 cm."
+
+#: includes/class-wb-kirje-shipment-methods.php:271
+msgid ""
+"Tuotteen maksimileveys, jolloin toimitustapaa ei enää näytetä kassalla. "
+"Oletus 35.3cm."
+msgstr ""
+"The maximum width of the product when the product will no longer be "
+"displayed in the checkout. The default 35.3 cm."
+
+#: includes/class-wb-kirje-shipment-methods.php:278
+msgid ""
+"Anna maksimi paino, jonka jälkeen toimitustapaa ei näytetä enää kassalla. "
+"Oletus 2kg."
+msgstr ""
+"Set the maximum weight when the shipping method will no longer be displayed "
+"at the checkout. Default 2kg."
+
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:90
+msgid "Posti Kotipaketti (Posti Toimitustavat)"
+msgstr "Posti Homepackage shipping method (Posti Toimitustavat)"
+
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:91
+msgid "Posti Kotipaketti toimitustapa"
+msgstr "Posti Homepackage shipping method"
+
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:158
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:158
+msgid "Posti Kotiinkuljetus"
+msgstr "Posti Home Delivery"
+
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:181
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:171
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:180
+#: includes/class-wb-posti-paketti-shipment-methods.php:170
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:179
+#: includes/class-wb-postiennakko-shipment-methods.php:171
+msgid ""
+"Ilmoita ensimmäisen paketin hinta Esim. 7.90 Voit käyttää referenssinä: <a "
+"href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target="
+"\"_blank\">Postin hinnastoa</a>"
+msgstr ""
+"Please set the first package price, e.g. 7.90. You can use Posti catalog as "
+"a reference: http://www.posti.fi/private/pricesandinstructions/"
+
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:182
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:172
+#: includes/class-wb-rahti-shipment-methods-sz.php:180
+msgid "19.90"
+msgstr " "
+
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:195
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:185
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:194
+#: includes/class-wb-posti-paketti-shipment-methods.php:184
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:193
+#: includes/class-wb-postiennakko-shipment-methods.php:185
+msgid ""
+"Ilmoita toisen paketin hinta Esim. 7.90 Voit käyttää referenssinä: <a href="
+"\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target=\"_blank"
+"\">Postin hinnastoa</a>"
+msgstr ""
+"Please set the second package price, e.g. 7.90. You can use Posti catalog as "
+"a reference: http://www.posti.fi/private/pricesandinstructions/"
+
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:196
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:186
+#: includes/class-wb-rahti-shipment-methods-sz.php:194
+msgid "20.30"
+msgstr " "
+
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:209
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:199
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:208
+#: includes/class-wb-posti-paketti-shipment-methods.php:198
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:207
+#: includes/class-wb-postiennakko-shipment-methods.php:199
+msgid ""
+"Ilmoita kolmannen paketin hinta Esim. 10.50 Voit käyttää referenssinä: <a "
+"href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target="
+"\"_blank\">Postin hinnastoa</a>"
+msgstr ""
+"Please set the third package price, e.g. 10.50. You can use Posti catalog as "
+"a reference: http://www.posti.fi/private/pricesandinstructions/"
+
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:210
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:200
+#: includes/class-wb-rahti-shipment-methods-sz.php:208
+msgid "21.30"
+msgstr " "
+
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:223
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:213
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:222
+#: includes/class-wb-posti-paketti-shipment-methods.php:212
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:221
+#: includes/class-wb-postiennakko-shipment-methods.php:213
+msgid ""
+"Ilmoita neljännen paketin hinta Esim. 14.00 Voit käyttää referenssinä: <a "
+"href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target="
+"\"_blank\">Postin hinnastoa</a>"
+msgstr ""
+"Please set the fourth package price, e.g. 14.00. You can use Posti catalog "
+"as a reference: http://www.posti.fi/private/pricesandinstructions/"
+
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:224
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:214
+#: includes/class-wb-rahti-shipment-methods-sz.php:222
+msgid "22.30"
+msgstr " "
+
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:237
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:227
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:236
+#: includes/class-wb-posti-paketti-shipment-methods.php:226
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:235
+#: includes/class-wb-postiennakko-shipment-methods.php:227
+msgid ""
+"Ilmoita viidennen paketin hinta Esim. 19.70 Voit käyttää referenssinä: <a "
+"href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target="
+"\"_blank\">Postin hinnastoa</a>"
+msgstr ""
+"Please set the fifth package price, e.g. 19.70. You can use Posti catalog as "
+"a reference: http://www.posti.fi/private/pricesandinstructions/"
+
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:238
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:228
+#: includes/class-wb-rahti-shipment-methods-sz.php:236
+msgid "27.10"
+msgstr " "
+
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:244
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:243
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:249
+msgid ""
+"Tuotteen maksimikorkeus, jolloin toimitustapaa ei enää näytetä kassalla. "
+"Oletus 100cm. Huom!! Mitat tulee antaa samassa mittayksikössä kuin ne on "
+"asetettu WooCommerceen!"
+msgstr ""
+"The maximum height of the product when the shipping method will no longer be "
+"displayed in the checkout. The default 100 cm. Note !! The dimensions should "
+"be given in the same unit of measurement as it is set to WooCommerce!"
+
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:251
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:250
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:256
+msgid ""
+"Tuotteen maksimipituus, jolloin toimitustapaa ei enää näytetä kassalla. "
+"Oletus 60cm. Huom!! Mitat tulee antaa samassa mittayksikössä kuin ne on "
+"asetettu WooCommerceen!"
+msgstr ""
+"The maximum length of the product when the shipping method will no longer be "
+"displayed in the checkout. The default 60 cm. Note !! The dimensions should "
+"be given in the same unit of measurement as it is set to WooCommerce!"
+
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:252
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:259
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:242
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:249
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:251
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:258
+#: includes/class-wb-posti-paketti-shipment-methods.php:241
+#: includes/class-wb-posti-paketti-shipment-methods.php:248
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:257
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:264
+#: includes/class-wb-postiennakko-shipment-methods.php:249
+#: includes/class-wb-postiennakko-shipment-methods.php:256
+#: includes/class-wb-smartpost-shipment-methods-sz.php:338
+#: includes/class-wb-smartpost-shipment-methods-sz.php:380
+#: includes/class-wb-smartpost-shipment-methods-sz.php:387
+#: includes/class-wb-smartpost-shipment-methods.php:339
+#: includes/class-wb-smartpost-shipment-methods.php:381
+#: includes/class-wb-smartpost-shipment-methods.php:388
+msgid "60"
+msgstr " "
+
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:258
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:257
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:263
+msgid ""
+"Tuotteen maksimileveys, jolloin toimitustapaa ei enää näytetä kassalla. "
+"Oletus 60cm. Huom!! Mitat tulee antaa samassa mittayksikössä kuin ne on "
+"asetettu WooCommerceen!"
+msgstr ""
+"The maximum width of the product when the product will no longer be "
+"displayed in the checkout. The default 60 cm. Note !! The dimensions should "
+"be given in the same unit of measurement as it is set to WooCommerce!"
+
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:262
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:252
+msgid "Tuotteen maksimi paino"
+msgstr "The maximum weight of the product"
+
+#: includes/class-wb-ovelle-paketti-shipment-methods-sz.php:269
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:259
+msgid "Kotipaketti ilmaisen toimituksen raja"
+msgstr "Homepackage free delivery cost limit"
+
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:89
+msgid "Posti Kotiinkuljetus (Poistuu käytöstä)"
+msgstr "Posti Home Delivery (Deprecated)"
+
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:90
+msgid "Posti Kotipaketti"
+msgstr "Posti Homepackage"
+
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:148
+msgid "Kotiinkuljetus"
+msgstr "Home delivery"
+
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:150
+msgid "Ota käyttöön Kotiinkuljetus toimitustapa"
+msgstr "Enable home delivery shipping method"
+
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:161
+#: includes/class-wb-posti-paketti-shipment-methods.php:160
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:169
+#: includes/class-wb-postiennakko-shipment-methods.php:161
+#: includes/class-wb-rahti-shipment-methods-sz.php:169
+msgid "Paketti1 Paino"
+msgstr "Package1 Weight"
+
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:164
+#: includes/class-wb-posti-paketti-shipment-methods.php:163
+#: includes/class-wb-postiennakko-shipment-methods.php:164
+msgid ""
+"Ilmoita ensimmäisen paketin max-paino Esim. 2. Voit käyttää referenssinä: <a "
+"href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target="
+"\"_blank\">Postin hinnastoa</a>"
+msgstr ""
+"Please set the first package maximum weight, e.g. 2. You can use Posti "
+"catalog as a reference: http://www.posti.fi/private/pricesandinstructions/"
+
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:175
+#: includes/class-wb-posti-paketti-shipment-methods.php:174
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:183
+#: includes/class-wb-postiennakko-shipment-methods.php:175
+#: includes/class-wb-rahti-shipment-methods-sz.php:183
+msgid "Paketti2 Paino"
+msgstr "Package2 Weight"
+
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:178
+#: includes/class-wb-posti-paketti-shipment-methods.php:177
+#: includes/class-wb-postiennakko-shipment-methods.php:178
+msgid ""
+"Ilmoita toisen paketin max-paino Esim. 5. Voit käyttää referenssinä: <a href="
+"\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target=\"_blank"
+"\">Postin hinnastoa</a>"
+msgstr ""
+"Please set the second package maximum weight, e.g. 5. You can use Posti "
+"catalog as a reference: http://www.posti.fi/private/pricesandinstructions/"
+
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:189
+#: includes/class-wb-posti-paketti-shipment-methods.php:188
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:197
+#: includes/class-wb-postiennakko-shipment-methods.php:189
+#: includes/class-wb-rahti-shipment-methods-sz.php:197
+msgid "Paketti3 Paino"
+msgstr "Package3 Weight"
+
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:192
+#: includes/class-wb-posti-paketti-shipment-methods.php:191
+#: includes/class-wb-postiennakko-shipment-methods.php:192
+msgid ""
+"Ilmoita kolmannen paketin max-paino Esim. 10. Voit käyttää referenssinä: <a "
+"href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target="
+"\"_blank\">Postin hinnastoa</a>"
+msgstr ""
+"Please set the third package maximum weight, e.g. 10. You can use Posti "
+"catalog as a reference: http://www.posti.fi/private/pricesandinstructions/"
+
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:203
+#: includes/class-wb-posti-paketti-shipment-methods.php:202
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:211
+#: includes/class-wb-postiennakko-shipment-methods.php:203
+#: includes/class-wb-rahti-shipment-methods-sz.php:211
+msgid "Paketti4 Paino"
+msgstr "Package4 Weight"
+
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:206
+#: includes/class-wb-posti-paketti-shipment-methods.php:205
+#: includes/class-wb-postiennakko-shipment-methods.php:206
+msgid ""
+"Ilmoita neljännen paketin max-paino Esim. 15. Voit käyttää referenssinä: <a "
+"href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target="
+"\"_blank\">Postin hinnastoa</a>"
+msgstr ""
+"Please set the fourth package maximum weight, e.g. 15. You can use Posti "
+"catalog as a reference: http://www.posti.fi/private/pricesandinstructions/"
+
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:217
+#: includes/class-wb-posti-paketti-shipment-methods.php:216
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:225
+#: includes/class-wb-postiennakko-shipment-methods.php:217
+#: includes/class-wb-rahti-shipment-methods-sz.php:225
+msgid "Paketti5 Paino"
+msgstr "Package5 Weight"
+
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:220
+#: includes/class-wb-posti-paketti-shipment-methods.php:219
+#: includes/class-wb-postiennakko-shipment-methods.php:220
+msgid ""
+"Ilmoita viidennen paketin max-paino Esim. 35. Voit käyttää referenssinä: <a "
+"href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target="
+"\"_blank\">Postin hinnastoa</a>"
+msgstr ""
+"Please set the fifth package maximum weight, e.g. 35. You can use Posti "
+"catalog as a reference: http://www.posti.fi/private/pricesandinstructions/"
+
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:234
+#: includes/class-wb-posti-paketti-shipment-methods.php:233
+#: includes/class-wb-postiennakko-shipment-methods.php:241
+msgid ""
+"Tuotteen maksimikorkeus, jolloin toimitustapaa ei enää näytetä kassalla. "
+"Oletus 100cm."
+msgstr ""
+"The maximum height of the product when the shipping method will no longer be "
+"displayed in the checkout. The default 100 cm."
+
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:241
+#: includes/class-wb-posti-paketti-shipment-methods.php:240
+msgid ""
+"Tuotteen maksimipituus, jolloin toimitustapaa ei enää näytetä kassalla. "
+"Oletus 60cm."
+msgstr ""
+"The maximum length of the product when the shipping method will no longer be "
+"displayed in the checkout. The default 60 cm."
+
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:248
+#: includes/class-wb-posti-paketti-shipment-methods.php:247
+msgid ""
+"Tuotteen maksimileveys, jolloin toimitustapaa ei enää näytetä kassalla. "
+"Oletus 60cm."
+msgstr ""
+"The maximum width of the product when the product will no longer be "
+"displayed in the checkout. The default 60 cm."
+
+#: includes/class-wb-ovelle-paketti-shipment-methods.php:255
+#: includes/class-wb-posti-paketti-shipment-methods.php:254
+#: includes/class-wb-postiennakko-shipment-methods.php:262
+msgid ""
+"Anna maksimi paino, jonka jälkeen toimitustapaa ei näytetä enää kassalla"
+msgstr ""
+"Set the maximum weight when the shipping method will no longer be displayed "
+"at the checkout."
+
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:89
+msgid "Posti Postipaketti (Posti Toimitustavat)"
+msgstr "Posti Homepackage shipping method (Posti Toimitustavat)"
+
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:90
+msgid "Postipaketti toimitustapa"
+msgstr "Post package shipping method"
+
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:157
+#: includes/class-wb-posti-paketti-shipment-methods.php:157
+msgid "Nouto Postista"
+msgstr "Pick Up From The Post Office"
+
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:181
+#: includes/class-wb-posti-paketti-shipment-methods.php:171
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:180
+#: includes/class-wb-postiennakko-shipment-methods.php:172
+#: includes/class-wb-smartpost-shipment-methods-sz.php:317
+#: includes/class-wb-smartpost-shipment-methods.php:318
+msgid "7.90"
+msgstr " "
+
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:195
+#: includes/class-wb-posti-paketti-shipment-methods.php:185
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:194
+#: includes/class-wb-postiennakko-shipment-methods.php:186
+msgid "9.30"
+msgstr " "
+
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:209
+#: includes/class-wb-posti-paketti-shipment-methods.php:199
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:208
+#: includes/class-wb-postiennakko-shipment-methods.php:200
+msgid "10.50"
+msgstr " "
+
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:223
+#: includes/class-wb-posti-paketti-shipment-methods.php:213
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:222
+#: includes/class-wb-postiennakko-shipment-methods.php:214
+msgid "14.00"
+msgstr " "
+
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:237
+#: includes/class-wb-posti-paketti-shipment-methods.php:227
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:236
+#: includes/class-wb-postiennakko-shipment-methods.php:228
+msgid "19.70"
+msgstr " "
+
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:261
+#: includes/class-wb-posti-paketti-shipment-methods.php:251
+msgid "Postipaketti maksimi paino"
+msgstr "The maximum weight of the post package"
+
+#: includes/class-wb-posti-paketti-shipment-methods-sz.php:268
+#: includes/class-wb-posti-paketti-shipment-methods.php:258
+msgid "Posti-Paketti ilmaisen toimituksen raja"
+msgstr "Post package free deliver limit"
+
+#: includes/class-wb-posti-paketti-shipment-methods.php:88
+msgid "Nouto Postista (Poistuu käytöstä)"
+msgstr "Pick Up From The Post Office (Deprecated)"
+
+#: includes/class-wb-posti-paketti-shipment-methods.php:89
+msgid "Postipaketti"
+msgstr "Post package"
+
+#: includes/class-wb-posti-paketti-shipment-methods.php:147
+msgid "Nouto Postista, Postipaketti."
+msgstr "Pick Up From The Post Office, The Post Package."
+
+#: includes/class-wb-posti-paketti-shipment-methods.php:149
+msgid "Ota käyttöön Nouto Postista toimitustapa"
+msgstr "Enable Pick Up From The Post Office shipping method"
+
+#: includes/class-wb-posti.php:204 includes/class-wb-posti.php:215
+msgid "Cheatin&#8217; huh?"
+msgstr "Cheatin&#8217; huh?"
+
+#: includes/class-wb-postiennakko-maksu.php:21
+msgid "Maksu Postiin"
+msgstr "Payment to the Post Office"
+
+#: includes/class-wb-postiennakko-maksu.php:22
+msgid "Maksu Postin toimipisteeseen."
+msgstr "Payment to the Post Office"
+
+#: includes/class-wb-postiennakko-maksu.php:60
+msgid "Ota toimitustapa käyttöön"
+msgstr "Enable Shipping method"
+
+#: includes/class-wb-postiennakko-maksu.php:61
+msgid "Ota käyttöön maksu Postin toimipisteeseen"
+msgstr "Enable payment to the Post office"
+
+#: includes/class-wb-postiennakko-maksu.php:67
+msgid "Nimi"
+msgstr "Name"
+
+#: includes/class-wb-postiennakko-maksu.php:69
+msgid "Näytetään kassalla"
+msgstr "Displayed on checkout"
+
+#: includes/class-wb-postiennakko-maksu.php:70
+msgid "Maksu Postin toimipisteeseen"
+msgstr "Payment to the Post Office"
+
+#: includes/class-wb-postiennakko-maksu.php:74
+msgid "Kuvaus"
+msgstr "Description"
+
+#: includes/class-wb-postiennakko-maksu.php:76
+msgid "Maksutavan kuvaus kassalla."
+msgstr "Description of the payment method at the checkout."
+
+#: includes/class-wb-postiennakko-maksu.php:77
+msgid "Maksu Postin toimipisteeseen noudettaessa."
+msgstr "Payment to the Post Office at pick up."
+
+#: includes/class-wb-postiennakko-maksu.php:81
+msgid "Maksuohjeet"
+msgstr "Payment instructions"
+
+#: includes/class-wb-postiennakko-maksu.php:83
+msgid "Maksuohjeet jotka näytetään kiitos-sivulla."
+msgstr "Payment instructions that are displayed on the thank you page."
+
+#: includes/class-wb-postiennakko-maksu.php:84
+msgid "Maksa toimituksen maksu Postin toimipisteeseen."
+msgstr "Pay the delivery fee for the post office."
+
+#: includes/class-wb-postiennakko-maksu.php:88
+#: includes/class-wb-postiennakko-maksu.php:97
+msgid "Postiennakkomaksu"
+msgstr "Cash on delivery payment"
+
+#: includes/class-wb-postiennakko-maksu.php:93
+msgid "Ei"
+msgstr "No"
+
+#: includes/class-wb-postiennakko-maksu.php:94
+msgid "Kyllä"
+msgstr "Yes"
+
+#: includes/class-wb-postiennakko-maksu.php:100
+msgid "Anna tähän postiennakkomaksu"
+msgstr "Enter the cash on delivery payment"
+
+#: includes/class-wb-postiennakko-maksu.php:104
+msgid "Maksun nimi"
+msgstr "The name of the payment"
+
+#: includes/class-wb-postiennakko-maksu.php:107
+msgid "Anna maksun nimi joka näytetään kassalla"
+msgstr ""
+"Enter the name of the payment which will be displayed at the checkout page"
+
+#: includes/class-wb-postiennakko-maksu.php:111
+#: includes/class-wb-postiennakko-shipment-methods.php:273
+msgid "Maksun verotus"
+msgstr "The taxation of the payment"
+
+#: includes/class-wb-postiennakko-maksu.php:120
+msgid "Ota käyttöön seuraaville toimitustavoille"
+msgstr "Enable for the following shipping methods"
+
+#: includes/class-wb-postiennakko-maksu.php:125
+msgid ""
+"Valitse mille toimitustavoille haluat maksutavan näkyvän, tai jätä tyhjäksi "
+"jos haluat sen näkyvän kaikille toimitustavoille."
+msgstr ""
+"Choose which delivery methods you want to display for the method of payment, "
+"or leave blank if you want it to be visible for all delivery methods."
+
+#: includes/class-wb-postiennakko-maksu.php:129
+msgid "Valitse toimitustavat"
+msgstr "Select shipping methods"
+
+#: includes/class-wb-postiennakko-maksu.php:226
+msgid "Maksetaan noudon yhteydessä"
+msgstr "Paid on pick up"
+
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:90
+msgid "Postiennakko (Posti Toimitustavat)"
+msgstr "Posti shipping methods (Posti Toimitustavat)"
+
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:91
+#: includes/class-wb-postiennakko-shipment-methods.php:90
+msgid "Postin Postiennakko toimitustapa."
+msgstr "Posti Cash on delivery shipping method."
+
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:156
+#: includes/class-wb-postiennakko-shipment-methods.php:148
+#: includes/class-wb-postiennakko-shipment-methods.php:158
+msgid "Postiennakko"
+msgstr "Cash on delivery"
+
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:239
+#: includes/class-wb-postiennakko-shipment-methods.php:231
+msgid "Postiennakko ilmaisen toimituksen raja"
+msgstr "Cash on delivery free shipping cost limit"
+
+#: includes/class-wb-postiennakko-shipment-methods-sz.php:267
+msgid "Postiennakko maksimi paino"
+msgstr "Cash on delivery maximum weight"
+
+#: includes/class-wb-postiennakko-shipment-methods.php:89
+msgid "Postiennakko (Poistuu käytöstä)"
+msgstr "Post Cash on delivery (Deprecated)"
+
+#: includes/class-wb-postiennakko-shipment-methods.php:150
+msgid "Ota käyttöön postiennakko toimitustapa"
+msgstr "Enable Cash on delivery shipping method"
+
+#: includes/class-wb-postiennakko-shipment-methods.php:248
+#: includes/class-wb-smartpost-shipment-methods.php:387
+msgid ""
+"Tuotteen maksipituus, jolloin toimitustapaa ei enää näytetä kassalla. Oletus "
+"60cm."
+msgstr ""
+"The maximum length of the product when the shipping method will no longer be "
+"displayed in the checkout. The default 60 cm."
+
+#: includes/class-wb-postiennakko-shipment-methods.php:255
+msgid ""
+"Tuotteen maksileveys, jolloin toimitustapaa ei enää näytetä kassalla. Oletus "
+"60cm."
+msgstr ""
+"The maximum width of the product when the product will no longer be "
+"displayed in the checkout. The default 60 cm."
+
+#: includes/class-wb-postiennakko-shipment-methods.php:259
+#: includes/class-wb-smartpost-shipment-methods-sz.php:397
+#: includes/class-wb-smartpost-shipment-methods.php:363
+msgid "Maksimipaino"
+msgstr "Maximum weight"
+
+#: includes/class-wb-rahti-shipment-methods-sz.php:90
+msgid "Posti Rahti (Posti Toimitustavat)"
+msgstr "Posti SmartPost shipping method (Posti Toimitustavat)"
+
+#: includes/class-wb-rahti-shipment-methods-sz.php:91
+msgid "Posti Rahti paketti"
+msgstr "Posti Cargo package"
+
+#: includes/class-wb-rahti-shipment-methods-sz.php:156
+msgid "Posti Rahti"
+msgstr "Posti Cargo"
+
+#: includes/class-wb-rahti-shipment-methods-sz.php:179
+msgid ""
+"Ilmoita ensimmäisen paketin hinta Esim. 19.90 Voit käyttää referenssinä: <a "
+"href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target="
+"\"_blank\">Postin hinnastoa</a>"
+msgstr ""
+"Please set the first package price, e.g. 19.90. You can use Posti catalog as "
+"a reference: http://www.posti.fi/private/pricesandinstructions/ Note !! The "
+"dimensions should be given in the same unit of measurement as it is set to "
+"WooCommerce!"
+
+#: includes/class-wb-rahti-shipment-methods-sz.php:193
+msgid ""
+"Ilmoita toisen paketin hinta Esim. 20.30 Voit käyttää referenssinä: <a href="
+"\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target=\"_blank"
+"\">Postin hinnastoa</a>"
+msgstr ""
+"Please set the second package price, e.g. 20.30. You can use Posti catalog "
+"as a reference: http://www.posti.fi/private/pricesandinstructions/ Note !! "
+"The dimensions should be given in the same unit of measurement as it is set "
+"to WooCommerce!"
+
+#: includes/class-wb-rahti-shipment-methods-sz.php:207
+msgid ""
+"Ilmoita kolmannen paketin hinta Esim. 21.30 Voit käyttää referenssinä: <a "
+"href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target="
+"\"_blank\">Postin hinnastoa</a>"
+msgstr ""
+"Please set the third package price, e.g. 21.30. You can use Posti catalog as "
+"a reference: http://www.posti.fi/private/pricesandinstructions/"
+
+#: includes/class-wb-rahti-shipment-methods-sz.php:221
+msgid ""
+"Ilmoita neljännen paketin hinta Esim. 22.30 Voit käyttää referenssinä: <a "
+"href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target="
+"\"_blank\">Postin hinnastoa</a>"
+msgstr ""
+"Please set the fourth package price, e.g. 22.30. You can use Posti catalog "
+"as a reference: http://www.posti.fi/private/pricesandinstructions/ Note !! "
+"The dimensions should be given in the same unit of measurement as it is set "
+"to WooCommerce!"
+
+#: includes/class-wb-rahti-shipment-methods-sz.php:235
+msgid ""
+"Ilmoita viidennen paketin hinta Esim. 27.10 Voit käyttää referenssinä: <a "
+"href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target="
+"\"_blank\">Postin hinnastoa</a>"
+msgstr ""
+"Please set the fifth package price, e.g. 27.10. You can use Posti catalog as "
+"a reference: http://www.posti.fi/private/pricesandinstructions/ Note !! The "
+"dimensions should be given in the same unit of measurement as it is set to "
+"WooCommerce!"
+
+#: includes/class-wb-rahti-shipment-methods-sz.php:242
+msgid ""
+"Tuotteen maksimikorkeus, jolloin tuotetta ei enää näytetä kassalla. Oletus "
+"100cm. Huom!! Mitat tulee antaa samassa mittayksikössä kuin se on asetettu "
+"WooCommerceen!"
+msgstr ""
+"The maximum height of the product when the product will no longer be "
+"displayed in the checkout. The default 100 cm. Note !! The dimensions should "
+"be given in the same unit of measurement as it is set to WooCommerce!"
+
+#: includes/class-wb-rahti-shipment-methods-sz.php:249
+msgid ""
+"Tuotteen maksipituus, jolloin tuotetta ei enää näytetä kassalla. Oletus "
+"100cm. Huom!! Mitat tulee antaa samassa mittayksikössä kuin se on asetettu "
+"WooCommerceen!"
+msgstr ""
+"The maximum length of the product when the shipping method is no longer "
+"displayed at the checkout. The default 60 cm. Note !! The dimensions should "
+"be given in the same unit of measurement as it is set to WooCommerce!"
+
+#: includes/class-wb-rahti-shipment-methods-sz.php:256
+msgid ""
+"Tuotteen maksileveys, jolloin tuotetta ei enää näytetä kassalla. Oletus "
+"100cm. Huom!! Mitat tulee antaa samassa mittayksikössä kuin se on asetettu "
+"WooCommerceen!"
+msgstr ""
+"The maximum width of the product when the shipping method will no longer be "
+"displayed in the checkout. The default 60 cm. Note !! The dimensions should "
+"be given in the same unit of measurement as it is set to WooCommerce!"
+
+#: includes/class-wb-rahti-shipment-methods-sz.php:260
+msgid "Paketin maksimi paino"
+msgstr "The maximum weight of the post package"
+
+#: includes/class-wb-rahti-shipment-methods-sz.php:267
+msgid "Ilmaisen toimituksen raja"
+msgstr "Free delivery cost limit"
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:29
+#: includes/class-wb-smartpost-shipment-methods.php:29
+msgid "Anna toimiva postinumero tai paikkakunta ja hae uudelleen."
+msgstr "Input valid postal code or city and search again."
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:66
+msgid ""
+"Ei SmartPOST noutopisteitä saatavilla kyseiselle paikkakunnalle. Voit "
+"kokeilla toista paikkakuntaa tai valitse toinen toimitustapa."
+msgstr ""
+"No SmartPOST terminals available for this location. Please try another "
+"location or choose different shipping method."
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:89
+#: includes/class-wb-smartpost-shipment-methods.php:88
+msgid "Valitse haluamasi noutopiste:"
+msgstr "Choose pickup point:"
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:224
+msgid "SmartPost (Posti Toimitustavat)"
+msgstr "Posti shipping methods (Posti Toimitustavat)"
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:225
+#: includes/class-wb-smartpost-shipment-methods.php:223
+msgid "Postin SmartPost toimitustapa"
+msgstr "Posti SmartPost shipping method"
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:289
+#: includes/class-wb-smartpost-shipment-methods.php:280
+#: includes/class-wb-smartpost-shipment-methods.php:290
+msgid "SmartPost"
+msgstr "Smartpost"
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:292
+#: includes/class-wb-smartpost-shipment-methods.php:293
+msgid "Paketti-S korkeus"
+msgstr "Package-S height"
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:295
+msgid ""
+"Ilmoita S-paketin max-korkeus joko Esim. 12. Voit käyttää referenssinä: <a "
+"href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target="
+"\"_blank\">Postin hinnastoa</a>. Huom!! Mitat tulee antaa samassa "
+"mittayksikössä kuin ne on asetettu WooCommerceen!"
+msgstr ""
+"Set the S-package maximum height, e.g. 12. You can use Posti catalog as a "
+"reference: http://www.posti.fi/private/pricesandinstructions/ Note !! The "
+"dimensions should be given in the same unit of measurement as it is set to "
+"WooCommerce!"
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:296
+#: includes/class-wb-smartpost-shipment-methods.php:297
+msgid "12"
+msgstr "  "
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:299
+#: includes/class-wb-smartpost-shipment-methods.php:300
+msgid "Paketti-S Hinta"
+msgstr "Package-S Price"
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:302
+#: includes/class-wb-smartpost-shipment-methods.php:303
+msgid ""
+"Ilmoita S-paketin hinta Esim. 6.90 Voit käyttää referenssinä: <a href="
+"\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target=\"_blank"
+"\">Postin hinnastoa</a>"
+msgstr ""
+"Set the S-package price, e.g. 6.90. You can use Posti catalog as a "
+"reference: http://www.posti.fi/private/pricesandinstructions/"
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:303
+#: includes/class-wb-smartpost-shipment-methods.php:304
+msgid "6.90"
+msgstr " "
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:306
+#: includes/class-wb-smartpost-shipment-methods.php:307
+msgid "Paketti-M korkeus"
+msgstr "Package-M height"
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:309
+msgid ""
+"Ilmoita M-paketin max-korkeus Esim. 20. Voit käyttää referenssinä: <a href="
+"\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target=\"_blank"
+"\">Postin hinnastoa</a>. Huom!! Mitat tulee antaa samassa mittayksikössä "
+"kuin ne on asetettu WooCommerceen!"
+msgstr ""
+"Set the M-package maximum height, e.g. 20. You can use Posti catalog as a "
+"reference: http://www.posti.fi/private/pricesandinstructions/ Note !! The "
+"dimensions should be given in the same unit of measurement as it is set to "
+"WooCommerce!"
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:310
+#: includes/class-wb-smartpost-shipment-methods.php:311
+msgid "20"
+msgstr " "
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:313
+#: includes/class-wb-smartpost-shipment-methods.php:314
+msgid "Paketti-M Hinta"
+msgstr "Package-M Price"
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:316
+#: includes/class-wb-smartpost-shipment-methods.php:317
+msgid ""
+"Ilmoita M-paketin hinta Esim. 7.90 Voit käyttää referenssinä: <a href="
+"\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target=\"_blank"
+"\">Postin hinnastoa</a>"
+msgstr ""
+"Set the M-package price, e.g. 7.90. You can use Posti catalog as a "
+"reference: http://www.posti.fi/private/pricesandinstructions/"
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:320
+#: includes/class-wb-smartpost-shipment-methods.php:321
+msgid "Paketti-L korkeus"
+msgstr "Package-L height"
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:323
+msgid ""
+"Ilmoita L-paketin max-korkeus Esim. 38. Voit käyttää referenssinä: <a href="
+"\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target=\"_blank"
+"\">Postin hinnastoa</a>. Huom!! Mitat tulee antaa samassa mittayksikössä "
+"kuin ne on asetettu WooCommerceen!"
+msgstr ""
+"Set the L-package maximum height, e.g. 38. You can use Posti catalog as a "
+"reference: http://www.posti.fi/private/pricesandinstructions/ Note !! The "
+"dimensions should be given in the same unit of measurement as it is set to "
+"WooCommerce!"
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:324
+#: includes/class-wb-smartpost-shipment-methods.php:325
+msgid "38"
+msgstr " "
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:327
+#: includes/class-wb-smartpost-shipment-methods.php:328
+msgid "Paketti-L Hinta"
+msgstr "Package-L Price"
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:330
+#: includes/class-wb-smartpost-shipment-methods.php:331
+msgid ""
+"Ilmoita L-paketin hinta Esim. 10.00 Voit käyttää referenssinä: <a href="
+"\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target=\"_blank"
+"\">Postin hinnastoa</a>"
+msgstr ""
+"Set the L-package price, e.g. 10.00. You can use Posti catalog as a "
+"reference: http://www.posti.fi/private/pricesandinstructions/"
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:331
+#: includes/class-wb-smartpost-shipment-methods.php:332
+msgid "10.00"
+msgstr " "
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:334
+#: includes/class-wb-smartpost-shipment-methods.php:335
+msgid "Paketti-XL korkeus"
+msgstr "Package-XL height"
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:337
+msgid ""
+"Ilmoita XL-paketin max-korkeus Esim. 60. Voit käyttää referenssinä: <a href="
+"\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target=\"_blank"
+"\">Postin hinnastoa</a>. Huom!! Mitat tulee antaa samassa mittayksikössä "
+"kuin ne on asetettu WooCommerceen!"
+msgstr ""
+"Set the XL-package maximum height, e.g. 60. You can use Posti catalog as a "
+"reference: http://www.posti.fi/private/pricesandinstructions/ Note !! The "
+"dimensions should be given in the same unit of measurement as it is set to "
+"WooCommerce!"
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:341
+#: includes/class-wb-smartpost-shipment-methods.php:342
+msgid "Paketti-XL Hinta"
+msgstr "Package-XL Price"
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:344
+#: includes/class-wb-smartpost-shipment-methods.php:345
+msgid ""
+"Ilmoita XL-paketin hinta Esim. 12.00 Voit käyttää referenssinä: <a href="
+"\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target=\"_blank"
+"\">Postin hinnastoa</a>"
+msgstr ""
+"Set the XL-package price, e.g. 12.00. You can use Posti catalog as a "
+"reference: http://www.posti.fi/private/pricesandinstructions/"
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:345
+#: includes/class-wb-smartpost-shipment-methods.php:346
+msgid "12.00"
+msgstr " "
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:348
+#: includes/class-wb-smartpost-shipment-methods.php:349
+msgid "SmartPost ilmaisen toimituksen raja"
+msgstr "Homepackage free delivery cost limit"
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:362
+msgid "Piilota SmartPost kokonaispainon ylittäessä maksimipainoraja?"
+msgstr "Hide SmartPost when the total weight exceeds the maximum weight limit?"
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:365
+msgid ""
+"Jos haluat piilottaa SmartPost toimitustavan kun kassan kokonaispaino "
+"ylittää maksimipainorajan, valitse tähän \"Kyllä\". Muussa tapauksessa, "
+"valitse tähän \"Ei\""
+msgstr ""
+"If you want to hide the SmartPost shipping method when the total weight "
+"exceeds the maximum weight limit, select \"Yes\". Otherwise, select \"no\""
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:369
+#: includes/class-wb-smartpost-shipment-methods.php:370
+msgid "Ota huomioon yhteenlaskettu maksimikorkeus?"
+msgstr "Notice the total maximum height?"
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:372
+#: includes/class-wb-smartpost-shipment-methods.php:373
+msgid ""
+"Jos haluat että ohjelma laskee yhteen tuotteiden korkeuden, ja ottaa tämän "
+"huomioon toimituskuluja laskettaessa, valitse \"Kyllä\". Muussa tapauksessa, "
+"valitse tähän \"Ei\". Kokonaiskorkeuden ylittäessä sallitun rajan, "
+"poistetaan toimitustapa kassalla käytöstä."
+msgstr ""
+"If you want the program to calculate the height of all products, and notice "
+"it in the calculation of shipping costs, click \"Yes\". Otherwise, select "
+"\"no\". When total height exceeds the allowed limit, shipping method will "
+"not be displayed at the checkout."
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:379
+msgid ""
+"Tuotteen maksimikorkeus, jolloin toimitustapaa ei enää näytetä kassalla. "
+"Oletus 60cm. . Huom!! Mitat tulee antaa samassa mittayksikössä kuin ne on "
+"asetettu WooCommerceen!"
+msgstr ""
+"The maximum length of the product when the shipping method will no longer be "
+"displayed in the checkout. The default 60 cm. Note !! The dimensions should "
+"be given in the same unit of measurement as it is set to WooCommerce!"
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:386
+msgid ""
+"Tuotteen maksimipituus, jolloin toimitustapaa ei enää näytetä kassalla. "
+"Oletus 60cm. . Huom!! Mitat tulee antaa samassa mittayksikössä kuin ne on "
+"asetettu WooCommerceen!"
+msgstr ""
+"The maximum length of the product when the shipping method will no longer be "
+"displayed in the checkout. The default 60 cm. Note !! The dimensions should "
+"be given in the same unit of measurement as it is set to WooCommerce!"
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:393
+msgid ""
+"Tuotteen maksimileveys, jolloin toimitustapaa ei enää näytetä kassalla. "
+"Oletus 36cm. . Huom!! Mitat tulee antaa samassa mittayksikössä kuin ne on "
+"asetettu WooCommerceen!"
+msgstr ""
+"The maximum width of the product when the shipping method will no longer be "
+"displayed in the checkout. The default 36 cm. Note !! The dimensions should "
+"be given in the same unit of measurement as it is set to WooCommerce!"
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:394
+#: includes/class-wb-smartpost-shipment-methods.php:395
+msgid "36"
+msgstr " "
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:400
+msgid ""
+"Tuotteen maksimipaino, jolloin toimitustapaa ei enää näytetä kassalla. "
+"Oletus 35kg. . Huom!! Paino tulee antaa samassa painoyksikössä kuin ne on "
+"asetettu WooCommerceen!"
+msgstr ""
+"The maximum weight of the product when the shipping method will no longer be "
+"displayed in the checkout. The default 35kg. Note !! The dimensions should "
+"be given in the same unit of measurement as it is set to WooCommerce!"
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:670
+#: includes/class-wb-smartpost-shipment-methods.php:627
+msgid "Anna paikkakunta tai postinumero ja paina Hae:"
+msgstr "Please enter city or postal code and press Search:"
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:671
+#: includes/class-wb-smartpost-shipment-methods.php:628
+msgid "Paikkakunta tai postinumero*"
+msgstr "City or postal code*"
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:672
+#: includes/class-wb-smartpost-shipment-methods.php:629
+msgid "Hae"
+msgstr "Search"
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:719
+#: includes/class-wb-smartpost-shipment-methods-sz.php:737
+#: includes/class-wb-smartpost-shipment-methods.php:677
+msgid "Postin noutopiste"
+msgstr "Posti pick-up point"
+
+#: includes/class-wb-smartpost-shipment-methods-sz.php:759
+#: includes/class-wb-smartpost-shipment-methods.php:698
+msgid "Virhe! SmartPOST noutopiste puuttuu!"
+msgstr "An error occurred! SmartPOST pick-up point is missing!"
+
+#: includes/class-wb-smartpost-shipment-methods.php:222
+msgid "SmartPost (Poistuu käytöstä)"
+msgstr "SmartPost (Deprecated)"
+
+#: includes/class-wb-smartpost-shipment-methods.php:282
+msgid "Ota käyttöön SmartPost"
+msgstr "Enable SmartPost"
+
+#: includes/class-wb-smartpost-shipment-methods.php:296
+msgid ""
+"Ilmoita S-paketin max-korkeus Esim. 12. Voit käyttää referenssinä: <a href="
+"\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target=\"_blank"
+"\">Postin hinnastoa</a>"
+msgstr ""
+"Set the S-package maximum height, e.g. 12. You can use Posti catalog as a "
+"reference: http://www.posti.fi/private/pricesandinstructions/"
+
+#: includes/class-wb-smartpost-shipment-methods.php:310
+msgid ""
+"Ilmoita M-paketin max-korkeus Esim. 20. Voit käyttää referenssinä: <a href="
+"\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target=\"_blank"
+"\">Postin hinnastoa</a>"
+msgstr ""
+"Set the M-package maximum height, e.g. 20. You can use Posti catalog as a "
+"reference: http://www.posti.fi/private/pricesandinstructions/"
+
+#: includes/class-wb-smartpost-shipment-methods.php:324
+msgid ""
+"Ilmoita L-paketin max-korkeus Esim. 38. Voit käyttää referenssinä: <a href="
+"\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target=\"_blank"
+"\">Postin hinnastoa</a>"
+msgstr ""
+"Set the L-package maximum height, e.g. 38. You can use Posti catalog as a "
+"reference: http://www.posti.fi/private/pricesandinstructions/"
+
+#: includes/class-wb-smartpost-shipment-methods.php:338
+msgid ""
+"Ilmoita XL-paketin max-korkeus Esim. 60. Voit käyttää referenssinä: <a href="
+"\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target=\"_blank"
+"\">Postin hinnastoa</a>"
+msgstr ""
+"Set the XL-package maximum height, e.g. 60. You can use Posti catalog as a "
+"reference: http://www.posti.fi/private/pricesandinstructions/"
+
+#: includes/class-wb-smartpost-shipment-methods.php:366
+msgid ""
+"Tuotteen maksimipaino, jolloin toimitustapaa ei enää näytetä kassalla. "
+"Oletus 35 (kg)"
+msgstr ""
+"The maximum weight of the product when shipping method is no longer "
+"displayed at the checkout. The default 35 (kg)"
+
+#: includes/class-wb-smartpost-shipment-methods.php:380
+msgid ""
+"Tuotteen maksimikorkeus, jolloin toimitustapaa ei enää näytetä kassalla. "
+"Oletus 60cm."
+msgstr ""
+"The maximum length of the product when the shipping method will no longer be "
+"displayed in the checkout. The default 60 cm."
+
+#: includes/class-wb-smartpost-shipment-methods.php:394
+msgid ""
+"Tuotteen maksileveys, jolloin toimitustapaa ei enää näytetä kassalla. Oletus "
+"36cm."
+msgstr ""
+"The maximum width of the product when the shipping method will no longer be "
+"displayed in the checkout. The default 36 cm."
+
+#: plugin-update-checker/plugin-update-checker.php:814
+msgid "Lisäosa on uusin versio."
+msgstr "Plugin is up to date."
+
+#: plugin-update-checker/plugin-update-checker.php:816
+msgid "Uusi versio lisäosasta saatavilla."
+msgstr "New version of plugin available."
+
+#: wb-posti.php:26
+msgid ""
+"Virhe Posti toimitustavat lisäosan käyttöönotossa! WooCommerce ei ole "
+"aktivoituna!"
+msgstr ""
+"Error, Posti toimitustavat plugin kannot be activated! WooCommerce needs to "
+"be activated first!"
+
+#: wb-posti.php:144
+msgid ""
+"<b>Huom! Käytössänne on vielä Posti toimitustavat lisäosan vanhentuneet "
+"toimitustavat! Posti toimitustavat lisäosan vanhentuneet toimitustavat "
+"poistuvat myöhemmin kokonaan käytöstä ja korvautuvat kokonaan uusilla "
+"\"toimitusvyöhyke\" toimitustavoilla.</b> Uudet toimitustavat kannattaa "
+"ottaa <span style=\"color: #ff0000\">välittömästi</span> käyttöön kohdasta "
+"WooCommerce - Asetukset - Toimitus - Toimitusvyöhykkeet. Muista samalla "
+"poistaa käytöstä vanhentuneet toimitustavat. Lisätietoja löydät ohjeesta, "
+"lisäosan /docs/ hakemistosta, tai <a href=\""
+msgstr ""
+"<b>Attention! Your shop is still using ”Posti toimitustavat” plugins "
+"deprecated shipping methods!</b> Please disable deprecated shipping methods, "
+"and choose new ones as soon as possible, at: WooCommerce - Settings - "
+"Shipping - Shipping zones. More info available at guidebook, at /docs/ "
+"folder."
+
+#. Plugin Name of the plugin/theme
+msgid "Posti toimitustavat"
+msgstr "Posti shipping methods"
+
+#. Plugin URI of the plugin/theme
+#. Author URI of the plugin/theme
+msgid "http://www.webbisivut.org/"
+msgstr "http://www.webbisivut.org/"
+
+#. Description of the plugin/theme
+msgid "Postin toimitustavat WooCommerce verkkokaupalle."
+msgstr "Posti shipping methods for WooCommerce."
+
+#. Author of the plugin/theme
+msgid "Webbisivut.org"
+msgstr "Webbisivut.org"
+
+#~ msgid "Posti Postipaketti"
+#~ msgstr "Posti Post package"
+
+#~ msgid ""
+#~ "<b>Huom! \"Posti toimitustavat\" lisäosan perinteiset toimitustavat "
+#~ "poistuvat myöhemmin käytöstä ja korvautuvat kokonaan uusilla "
+#~ "\"toimitusvyöhyke\" toimitustavoilla.</b> Uudet toimitustavat kannattaa "
+#~ "ottaa mahdollisimman pian käyttöön kohdasta WooCommerce - Asetukset - "
+#~ "Toimitus - Toimitusvyöhykkeet. Lisätietoja löydät ohjeesta, lisäosan /"
+#~ "docs/ hakemistosta."
+#~ msgstr ""
+#~ "<b>\"Posti toimitustavat\" plugins regular shipping methods will be "
+#~ "removed on later versions and replaced completely with shipping zone "
+#~ "methods.</b> Take new shipping methods in use as soon as possible, at: "
+#~ "WooCommerce - Settings - Shipping - Shipping zones. More info can be "
+#~ "found on user manual at plugins /docs/ folder."
+
+#~ msgid "pe maksimi paino"
+#~ msgstr "Cash on delivery maximum weight"
+
+#~ msgid ""
+#~ "Ilmoita neljännen kirjeen hinta Esim. 6.60 Voit käyttää referenssinä: <a "
+#~ "href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target="
+#~ "\"_blank\">Postin hinnastoa</a>"
+#~ msgstr ""
+#~ "Please set the fourth letter price, e.g. 6.60. You can use Posti catalog "
+#~ "as a reference: http://www.posti.fi/private/pricesandinstructions/"
+
+#~ msgid ""
+#~ "Ilmoita viidennen kirjeen max-paino Esim. 2. Voit käyttää referenssinä: "
+#~ "<a href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" "
+#~ "target=\"_blank\">Postin hinnastoa</a>"
+#~ msgstr ""
+#~ "Please set the sixth letter maximum weight, e.g. 2. You can use Posti "
+#~ "catalog as a reference: http://www.posti.fi/private/pricesandinstructions/"
+
+#~ msgid ""
+#~ "Ilmoita neljännen kirjeen hinta Esim. 11.00 Voit käyttää referenssinä: <a "
+#~ "href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target="
+#~ "\"_blank\">Postin hinnastoa</a>"
+#~ msgstr ""
+#~ "Please set the sixth letter price, e.g. 11.00. You can use Posti catalog "
+#~ "as a reference: http://www.posti.fi/private/pricesandinstructions/"
+
+#~ msgid ""
+#~ "Tuotteen maksimikorkeus, jolloin tuotetta ei enää näytetä kassalla. "
+#~ "Oletus 3cm."
+#~ msgstr ""
+#~ "The maximum height of the product when the product will no longer be "
+#~ "displayed in the checkout. The default 3 cm."
+
+#~ msgid ""
+#~ "Tuotteen maksileveys, jolloin tuotetta ei enää näytetä kassalla. Oletus "
+#~ "35.3cm."
+#~ msgstr ""
+#~ "The maximum width of the product when the product will no longer be "
+#~ "displayed in the checkout. The default 21.9 cm."
+
+#~ msgid ""
+#~ "Tuotteen maksipituus, jolloin toimitustapaa ei enää näytetä kassalla. "
+#~ "Oletus 25cm."
+#~ msgstr ""
+#~ "The maximum length of the product when the shipping method will no longer "
+#~ "be displayed in the checkout. The default 3 cm."
+
+#~ msgid ""
+#~ "Tuotteen maksileveys, jolloin toimitustapaa ei enää näytetä kassalla. "
+#~ "Oletus 35.3cm."
+#~ msgstr ""
+#~ "The maximum width of the product when the product will no longer be "
+#~ "displayed in the checkout. The default 35.3 cm."
+
+#~ msgid ""
+#~ "Ilmoita neljännen paketin hinta Esim. 19.70 Voit käyttää referenssinä: <a "
+#~ "href=\"http://www.posti.fi/henkiloasiakkaat/ohjeet/hinnat.html\" target="
+#~ "\"_blank\">Postin hinnastoa</a>"
+#~ msgstr ""
+#~ "Please set the fifth package price, e.g. 19.70. You can use Posti catalog "
+#~ "as a reference: http://www.posti.fi/private/pricesandinstructions/"
+
+#~ msgid ""
+#~ "Tuotteen maksimikorkeus, jolloin tuotetta ei enää näytetä kassalla. "
+#~ "Oletus 60cm."
+#~ msgstr ""
+#~ "The maximum width of the product when the shipping method will no longer "
+#~ "be displayed in the checkout. The default 60 cm."
+
+#~ msgid ""
+#~ "Tuotteen maksimipituus, jolloin tuotetta ei enää näytetä kassalla. Oletus "
+#~ "60cm."
+#~ msgstr ""
+#~ "The maximum length of the product when the shipping method is no longer "
+#~ "displayed at the checkout. The default 60 cm."
+
+#~ msgid ""
+#~ "Tuotteen maksimileveys, jolloin tuotetta ei enää näytetä kassalla. Oletus "
+#~ "36cm."
+#~ msgstr ""
+#~ "The maximum width of the product when the shipping method will no longer "
+#~ "be displayed in the checkout. The default 36 cm."
+
+#~ msgid ""
+#~ "Tuotteen maksimipaino, jolloin tuotetta ei enää näytetä kassalla. Oletus "
+#~ "35kg."
+#~ msgstr ""
+#~ "The maximum weight of the product when the shipping method will no longer "
+#~ "be displayed in the checkout. The default 35 cm."

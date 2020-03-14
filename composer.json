@@ -1,0 +1,13 @@
+{
+    "name": "wb-posti-toimitustavat",
+    "description": "Posti toimitustavat WooCommercelle",
+    "type": "wordpress-plugin",
+    "license": "GPLv3",
+    "authors": [
+        {
+            "name": "Webbisivut.org",
+            "email": "info@webbisivut.org"
+        }
+    ],
+    "require": {}
+}
